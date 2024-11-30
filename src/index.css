@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -11,9 +13,136 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Inter";
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.map {
+  background-color: #464646;
+  padding: 50px 0 253px 0;
+  position:relative;
+}
+
+.mapcontainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.unioncontainer {
+  width: 750px;
+}
+
+.tabcontainer {
+  display: flex;
+  cursor: pointer;
+}
+
+.taboption {
+  font-size: 22px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  padding: 18px 0 15px 0;
+  font-family: "Inter";
+}
+
+.unionbody__container {
+  padding: 50px 20px;
+  background-color: rgba(180, 180, 180, 1);
+  display: flex ;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.unionbody__upper,
+.unionbody__lower {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.unionbody__lower > div{
+  flex-basis: 237px;
+}
+label{
+  display: flex;
+}
+.inputcontainer{
+  flex-grow: 1;
+  display: flex;
+  height: 60px;
+  background-color: #e4e4e4;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding:0 10px;
+}
+
+input, select {
+  background-color: transparent;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  color: rgba(114, 114, 114, 1);
+  font-size: 22px;
+  outline: none;
+}
+
+select{
+  width:calc(100% - 20px);
+}
+
+input::placeholder {
+  color: rgba(114, 114, 114, 1);
+  font-size: 22px;
+}
+
+.dropdown{
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.union_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  text-transform: uppercase;
+  font-size: 18px;
+  min-height: 60px;
+}
+
+.map__settings_container {
+  position: absolute;
+  top:159px;
+  right:54px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.map__settings_container .zoom{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon_container{
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  background-color: #e4e4e4;
 }
