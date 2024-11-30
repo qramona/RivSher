@@ -1,5 +1,3 @@
-import style from "./style.module.css";
-
 const Variants = () => {
   return (
     <section>
