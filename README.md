@@ -15,10 +15,10 @@ https://www.figma.com/design/8gaQvZrkZBYw4Pp8QEyRW1/%D0%A8%D0%B5%D1%80%D0%B8%D0%
 
 ***Ссылка на API(openapi):*** https://q59dp9k0-8080.euw.devtunnels.ms/docs
 ## Команда RiivSher
-***Team Lead*** К Артур  
-***Дизайн*** Алёна Маркова  
-***Backend*** Андрей Чижов  
-***Backend*** Даниэль Кум Нджи кебей  
-***Frontend*** Наталия Баннова
+***Team Lead*** К Артур @Awetor12  
+***Дизайн*** Алёна Маркова @almarkova  
+***Backend*** Андрей Чижов @IamChizhov  
+***Backend*** Даниэль Кум Нджи кебей @dtpdany  
+***Frontend*** Наталия Баннова @natpalna
 
 Ориентировочное время реализации бизнес-логики в формате MVP составляет 1 неделя
